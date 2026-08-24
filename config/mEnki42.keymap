@@ -10,7 +10,12 @@
 
 #include <dt-bindings/zmk/ext_power.h>
  
-#define DEF 0
+#define BASE  0
+#define GAME  1
+#define FN    2
+#define NUM   3
+#define NAV   4
+#define PPN   6
 
 /*
 * &lt { quick_tap_ms = <220>; };
