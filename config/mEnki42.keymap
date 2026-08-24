@@ -88,11 +88,11 @@
             display-name = "Game1";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Gam╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                   &kp ESC        &kp Q         &kp W         &kp E         &kp R             &kp N1        &kp N2        &kp N3        &kp N4        &kp N5
+     &trans         &kp ESC        &kp Q         &kp W         &kp E         &kp R             &kp N1        &kp N2        &kp N3        &kp N4        &kp N5    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 1 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LSHFT       &kp A         &kp S         &kp D         &kp F             &kp G         &kp H         &kp J         &kp K         &kp L
+      &trans       &kp LSHFT       &kp A         &kp S         &kp D         &kp F             &kp G         &kp H         &kp J         &kp K         &kp L    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Gam├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LCTRL       &kp Z         &kp X         &kp C         &kp V             &trans      &mkp LCLK       &mo 8       &mkp RCLK       &trans
+      &trans       &kp LCTRL       &kp Z         &kp X         &kp C         &kp V             &trans      &mkp LCLK       &mo 8       &mkp RCLK       &trans     &trans
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 1 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                                &kp BSPC     &kp SPACE      &kp DEL           &kp RET      &kp SPACE       &trans
             //                             ╰─────────────┴─────────────┴─────────────╯Gam╰─────────────┴─────────────┴─────────────╯
@@ -103,11 +103,11 @@
             display-name = "FN2";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮F11╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &trans      &bt BT_CLR
+ &trans           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &trans      &bt BT_CLR    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 2 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &kp F6        &kp F7        &kp F8        &kp F9       &kp F10          &kp PSCRN     &kp LCTRL     &kp LSHFT      &kp LALT       &trans
+  &trans           &kp F6        &kp F7        &kp F8        &kp F9       &kp F10          &kp PSCRN     &kp LCTRL     &kp LSHFT      &kp LALT       &trans    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤F11├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans        &trans       &kp F11       &kp F12            &trans        &trans        &trans        &trans     &bootloader      
+ &trans           &trans        &trans        &trans       &kp F11       &kp F12            &trans        &trans        &trans        &trans     &bootloader    &trans
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 2 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                                 &trans        &trans        &trans            &trans        &trans        &trans
             //                             ╰─────────────┴─────────────┴─────────────╯F11╰─────────────┴─────────────┴─────────────╯
@@ -118,11 +118,11 @@
             display-name = "Num3";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Num╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp C_AL_CALC     &trans        &trans        &trans        &trans          &kp GRAVE       &kp N7        &kp N8        &kp N9      &kp EQUAL
+     &trans      &kp C_AL_CALC     &trans        &trans        &trans        &trans          &kp GRAVE       &kp N7        &kp N8        &kp N9      &kp EQUAL    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans       &kp LALT     &kp LSHFT     &kp LCTRL   &kp LG(LS(S))      &kp KP_PLUS      &kp N4        &kp N5        &kp N6     &kp KP_MINUS
+      &trans         &trans       &kp LALT     &kp LSHFT     &kp LCTRL   &kp LG(LS(S))      &kp KP_PLUS      &kp N4        &kp N5        &kp N6     &kp KP_MINUS   &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Num├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3     &kp KP_SLASH
+     &trans       &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3     &kp KP_SLASH   &trans
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                               &kp LCTRL      &kp BSPC      &kp DEL           &kp RET        &kp N0        &trans
             //                             ╰─────────────┴─────────────┴─────────────╯Num╰─────────────┴─────────────┴─────────────╯
@@ -133,11 +133,11 @@
             display-name = "Navigation";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Nav╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                  &kp EQUAL       &kp N9        &kp N8        &kp N7       &kp LBKT          &kp ESC      &kp PG_UP       &kp UP      &kp PG_DN      &kp F11
+     &trans       &kp EQUAL       &kp N9        &kp N8        &kp N7       &kp LBKT          &kp ESC      &kp PG_UP       &kp UP      &kp PG_DN      &kp F11    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                 &kp KP_MINUS     &kp N6        &kp N5        &kp N4     &kp KP_PLUS         &kp RET      &kp LEFT      &kp DOWN      &kp RIGHT     &kp LCTRL
+     &trans      &kp KP_MINUS     &kp N6        &kp N5        &kp N4     &kp KP_PLUS         &kp RET      &kp LEFT      &kp DOWN      &kp RIGHT     &kp LCTRL    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Nav├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                 &kp KP_SLASH     &kp N3        &kp N2        &kp N1   &kp KP_MULTIPLY       &kp TAB    &kp C_VOL_DN  &kp C_VOL_UP  &kp LA(LC(DOT)) &kp LSHFT
+      &trans      &kp KP_SLASH     &kp N3        &kp N2        &kp N1   &kp KP_MULTIPLY       &kp TAB    &kp C_VOL_DN  &kp C_VOL_UP  &kp LA(LC(DOT)) &kp LSHFT    &trans
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                                &kp BSPC       &kp N0      &kp SPACE          &kp RET      &kp SPACE       &trans
             //                             ╰─────────────┴─────────────┴─────────────╯Nav╰─────────────┴─────────────┴─────────────╯
@@ -148,11 +148,11 @@
             display-name = "FN_5";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮F12╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                  &bt BT_CLR      &trans     &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0           &kp F10        &kp F7        &kp F8        &kp F9        &trans
+  &trans          &bt BT_CLR      &trans     &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0        &kp F10        &kp F7        &kp F8        &kp F9        &trans   &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                   &kp LWIN     &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp F11        &kp F4        &kp F5        &kp F6        &trans
+   &trans          &kp LWIN     &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp F11        &kp F4        &kp F5        &kp F6        &trans    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤F12├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans        &trans        &trans        &trans           &kp F12        &kp F1        &kp F2        &kp F3        &trans
+    &trans           &trans        &trans        &trans        &trans        &trans           &kp F12        &kp F1        &kp F2        &kp F3        &trans    &trans
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                                 &trans        &trans        &trans            &trans        &trans        &trans
             //                             ╰─────────────┴─────────────┴─────────────╯F12╰─────────────┴─────────────┴─────────────╯
@@ -163,11 +163,11 @@
             display-name = "Dot_6";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮PPN╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                  &kp EQUAL       &kp N9        &kp N8        &kp N7       &kp LBKT         &kp LS(N1)    &kp LS(N2)    &kp LS(N3)    &kp LS(N9)    &kp LS(N0)
+  &trans          &kp EQUAL       &kp N9        &kp N8        &kp N7       &kp LBKT         &kp LS(N1)    &kp LS(N2)    &kp LS(N3)    &kp LS(N9)    &kp LS(N0)    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 6 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                 &kp KP_MINUS     &kp N6        &kp N5        &kp N4     &kp KP_PLUS        &kp GRAVE      &kp RBKT      &kp LBKT    &kp LS(N7) &kp LA(LC(MINUS))
+  &trans         &kp KP_MINUS     &kp N6        &kp N5        &kp N4     &kp KP_PLUS        &kp GRAVE      &kp RBKT      &kp LBKT    &kp LS(N7) &kp LA(LC(MINUS))    &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤PPN├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                 &kp KP_SLASH     &kp N3        &kp N2        &kp N1   &kp KP_MULTIPLY    &kp LS(GRAVE)  &kp LS(RBKT)  &kp LS(LBKT) &kp LA(LC(DOT)) &kp KP_SLASH
+   &trans        &kp KP_SLASH     &kp N3        &kp N2        &kp N1   &kp KP_MULTIPLY    &kp LS(GRAVE)  &kp LS(RBKT)  &kp LS(LBKT) &kp LA(LC(DOT)) &kp KP_SLASH    &trans
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 6 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                                &kp BSPC       &kp N0      &kp SPACE           &trans        &trans        &trans
             //                             ╰─────────────┴─────────────┴─────────────╯PPN╰─────────────┴─────────────┴─────────────╯
