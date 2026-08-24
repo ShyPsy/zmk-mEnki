@@ -72,11 +72,11 @@
             display-name = "Base0";
                 bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Bse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                   &kp ESC        &kp Q         &kp W         &kp E         &kp R          &kp T            &kp Y         &kp U         &kp I         &kp O         &kp P         &kp DEL
+                   &kp ESC        &kp Q         &kp W         &kp E         &kp R          &kp T            &kp Y         &kp U         &kp I         &kp O         &kp P        &kp DEL
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 0 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LSHFT       &kp A         &kp S         &kp D         &kp F          &kp G            &kp H         &kp J         &kp K         &kp L        &kp SEMI       &kp RET
+                  &kp LSHFT       &kp A         &kp S         &kp D         &kp F          &kp G            &kp H         &kp J         &kp K         &kp L        &kp SEMI      &kp RET
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Bse├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LCTRL      &kp NUBS       &kp Z         &kp X         &kp C          &kp V            &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH      &kp LCTRL
+                  &kp LCTRL      &kp NUBS       &kp Z         &kp X         &kp C          &kp V            &kp N         &kp M       &kp COMMA      &kp DOT       &kp FSLH     &kp LCTRL
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 0 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                             &kp LSHFT      &kp BSPC     &kp LCTRL         &lt 6 RET   &lt NAV SPACE   &lt 5 ESC  
             //                                           ╰─────────────┴─────────────┴─────────────╯Bse╰─────────────┴─────────────┴─────────────╯
@@ -117,11 +117,11 @@
             display-name = "Num3";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Num╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                    &trans    &kp C_AL_CALC     &trans        &trans        &trans        &trans          &kp GRAVE       &kp N7        &kp N8        &kp N9      &kp EQUAL &trans
+                    &trans    &kp C_AL_CALC     &trans        &trans        &trans        &trans          &kp GRAVE       &kp N7        &kp N8        &kp N9      &kp EQUAL       &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans       &kp LALT     &kp LSHFT     &kp LCTRL   &kp LG(LS(S))      &kp KP_PLUS      &kp N4        &kp N5        &kp N6     &kp KP_MINUS &trans
+                    &trans        &trans       &kp LALT     &kp LSHFT     &kp LCTRL   &kp LG(LS(S))      &kp KP_PLUS      &kp N4        &kp N5        &kp N6     &kp KP_MINUS     &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Num├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3     &kp KP_SLASH &trans
+                    &trans      &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3     &kp KP_SLASH     &trans
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                             &kp LCTRL      &kp BSPC      &kp DEL           &kp RET        &kp N0        &trans
             //                                           ╰─────────────┴─────────────┴─────────────╯Num╰─────────────┴─────────────┴─────────────╯
