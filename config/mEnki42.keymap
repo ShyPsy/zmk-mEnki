@@ -37,33 +37,102 @@
 };
 
 / {
-    macros {
-        numdot: numdot {
-            label = "ZM_numdot";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings
-                = <&macro_press   &kp LALT>    
-                , <&macro_tap     &kp KP_N4 &kp KP_N6>    
-                , <&macro_release &kp LALT>
-                ;
+    combos {
+    compatible = "zmk,combos";
+    timeout-ms = <20>;
+    require-prior-idle-ms = <250>;
+
+   
+    combo_normal {
+      key-positions = <6 7 8>;
+      bindings = <&to BASE>;
+    };
+    Delete {
+      bindings = <&kp DELETE>;
+      key-positions = <8 9>;
+    };
+    combo_normalleft {
+      key-positions = <1 2 3>;
+      bindings = <&to BASE>;
+    };
+    combo_fn {
+      key-positions = <27 28>;
+      bindings = <&sl FN>;
+    };
+    combo_unlock {
+      key-positions = <0 4>;
+      bindings = <&studio_unlock>;
+    };
+    screenshot {
+        bindings = <&kp LG(LS(S))>;
+        key-positions = <3 4>;
+    };
+
+    eng {
+        bindings = <&kp F16>;
+        key-positions = <13 14>;
+    };
+
+    rus {
+        bindings = <&kp F17>;
+        key-positions = <15 16>;
+    };
+
+    ParaLeft {
+        bindings = <&kp LS(N9)>;
+        key-positions = <23 24>;
+    };
+
+        greatt {
+            bindings = <&kp LC(LA(P))>;
+            key-positions = <25 26>;
         };
-        grtsgn: grtsgn {
-            label = "ZM_grtsgn";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings
-                = <&macro_press   &kp LALT>    
-                , <&macro_tap     &kp KP_N6 &kp KP_N2>    
-                , <&macro_release &kp LALT>
-                ;
+
+        circumflex {
+            bindings = <&kp LS(N6)>;
+            key-positions = <5 6>;
+        };
+
+    bootloaderRight {
+        bindings = <&bootloader>;
+        key-positions = <9 18 27>;
+    };
+
+    bootloaderLeft {
+        bindings = <&bootloader>;
+        key-positions = <0 11 22>;
+    };
+
+    game {
+        bindings = <&tog 1>;
+        key-positions = <18 29>;
+    };
+        
+    gameleft {
+        bindings = <&tog 1>;
+        key-positions = <0 24>;
+    };
+    GoNav {
+        bindings = <&tog 4>;
+        key-positions = <5 16>;
+    };
+    GoScroll {
+        bindings = <&tog 8>;
+        key-positions = <16 25>;
+    };
+    GoNumDot {
+        bindings = <&tog PPN>;
+        key-positions = <1 2 4>;
+    };
+    fullscree {
+        bindings = <&kp F11>;
+        key-positions = <6 15>;
+    };
+    fullscreenLeft {
+        bindings = <&kp F11>;
+        key-positions = <3 14>;
         };
     };
-};
 / {
         keymap {
                 compatible = "zmk,keymap";
