@@ -124,16 +124,13 @@
         bindings = <&kp F11>;
         key-positions = <6 15>;
     };
-    fullscreenLeft {
+   ullscreenLeft {
         bindings = <&kp F11>;
         key-positions = <3 14>;
-        };
     };
-/ {
-        keymap {
-                compatible = "zmk,keymap";
+}; // Закрыли блок combos. Мы всё ещё находимся внутри корневого блока / {
 
-        Base {
+    keymap {
             display-name = "Base0";
                 bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Bse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
