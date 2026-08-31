@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-
 #include <dt-bindings/zmk/ext_power.h>
  
 #define BASE  0
@@ -16,11 +15,6 @@
 #define NUM   3
 #define NAV   4
 #define PPN   6
-
-/*
-* &lt { quick_tap_ms = <220>; };
-* &mt { quick_tap_ms = <220>; };
- */
 
 &lt {
     quick_tap_ms = <220>;
@@ -38,97 +32,87 @@
 
 / {
     combos {
-    compatible = "zmk,combos";
-    timeout-ms = <20>;
-    require-prior-idle-ms = <250>;
+        compatible = "zmk,combos";
+        timeout-ms = <20>;
+        require-prior-idle-ms = <250>;
 
-   
-    combo_normal {
-      key-positions = <6 7 8>;
-      bindings = <&to BASE>;
-    };
-    Delete {
-      bindings = <&kp DELETE>;
-      key-positions = <8 9>;
-    };
-    combo_normalleft {
-      key-positions = <1 2 3>;
-      bindings = <&to BASE>;
-    };
-    combo_fn {
-      key-positions = <27 28>;
-      bindings = <&sl FN>;
-    };
-    combo_unlock {
-      key-positions = <0 4>;
-      bindings = <&studio_unlock>;
-    };
-    screenshot {
-        bindings = <&kp LG(LS(S))>;
-        key-positions = <3 4>;
-    };
-
-    eng {
-        bindings = <&kp F16>;
-        key-positions = <13 14>;
-    };
-
-    rus {
-        bindings = <&kp F17>;
-        key-positions = <15 16>;
-    };
-
-    ParaLeft {
-        bindings = <&kp LS(N9)>;
-        key-positions = <23 24>;
-    };
-
+        combo_normal {
+            key-positions = <6 7 8>;
+            bindings = <&to BASE>;
+        };
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
+        };
+        combo_normalleft {
+            key-positions = <1 2 3>;
+            bindings = <&to BASE>;
+        };
+        combo_fn {
+            key-positions = <27 28>;
+            bindings = <&sl FN>;
+        };
+        combo_unlock {
+            key-positions = <0 4>;
+            bindings = <&studio_unlock>;
+        };
+        screenshot {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <3 4>;
+        };
+        eng {
+            bindings = <&kp F16>;
+            key-positions = <13 14>;
+        };
+        rus {
+            bindings = <&kp F17>;
+            key-positions = <15 16>;
+        };
+        ParaLeft {
+            bindings = <&kp LS(N9)>;
+            key-positions = <23 24>;
+        };
         greatt {
             bindings = <&kp LC(LA(P))>;
             key-positions = <25 26>;
         };
-
         circumflex {
             bindings = <&kp LS(N6)>;
             key-positions = <5 6>;
         };
-
-    bootloaderRight {
-        bindings = <&bootloader>;
-        key-positions = <9 18 27>;
+        bootloaderRight {
+            bindings = <&bootloader>;
+            key-positions = <9 18 27>;
+        };
+        bootloaderLeft {
+            bindings = <&bootloader>;
+            key-positions = <0 11 22>;
+        };
+        game {
+            bindings = <&tog 1>;
+            key-positions = <18 29>;
+        };
+        gameleft {
+            bindings = <&tog 1>;
+            key-positions = <0 24>;
+        };
+        GoNav {
+            bindings = <&tog 4>;
+            key-positions = <5 16>;
+        };
+        GoNumDot {
+            bindings = <&tog PPN>;
+            key-positions = <1 2 4>;
+        };
+        fullscree {
+            bindings = <&kp F11>;
+            key-positions = <6 15>;
+        };
+        fullscreenLeft {
+            bindings = <&kp F11>;
+            key-positions = <3 14>;
+        };
     };
-
-    bootloaderLeft {
-        bindings = <&bootloader>;
-        key-positions = <0 11 22>;
-    };
-
-    game {
-        bindings = <&tog 1>;
-        key-positions = <18 29>;
-    };
-        
-    gameleft {
-        bindings = <&tog 1>;
-        key-positions = <0 24>;
-    };
-    GoNav {
-        bindings = <&tog 4>;
-        key-positions = <5 16>;
-    };
-    GoNumDot {
-        bindings = <&tog PPN>;
-        key-positions = <1 2 4>;
-    };
-    fullscree {
-        bindings = <&kp F11>;
-        key-positions = <6 15>;
-    };
-   ullscreenLeft {
-        bindings = <&kp F11>;
-        key-positions = <3 14>;
-    };
-}; // Закрыли блок combos. Мы всё ещё находимся внутри корневого блока / {
 
     keymap {
             display-name = "Base0";
