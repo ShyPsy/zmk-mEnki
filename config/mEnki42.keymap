@@ -37,27 +37,17 @@
         require-prior-idle-ms = <250>;
 
         combo_normal {
-            key-positions = <6 7 8>;
+            key-positions = <7 8 9>;
             bindings = <&to BASE>;
-        };
-
-        Delete {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
         };
 
         combo_normalleft {
-            key-positions = <1 2 3>;
+            key-positions = <2 3 4>;
             bindings = <&to BASE>;
         };
 
-        combo_fn {
-            key-positions = <27 28>;
-            bindings = <&sl FN>;
-        };
-
         combo_unlock {
-            key-positions = <0 4>;
+            key-positions = <0 5>;
             bindings = <&studio_unlock>;
         };
 
@@ -93,32 +83,27 @@
 
         bootloaderRight {
             bindings = <&bootloader>;
-            key-positions = <9 18 27>;
+            key-positions = <11 22 33>;
         };
 
         bootloaderLeft {
             bindings = <&bootloader>;
-            key-positions = <0 11 22>;
-        };
-
-        game {
-            bindings = <&tog 1>;
-            key-positions = <18 29>;
+            key-positions = <0 13 26>;
         };
 
         gameleft {
             bindings = <&tog 1>;
-            key-positions = <0 24>;
+            key-positions = <0 29>;
         };
 
         GoNav {
             bindings = <&tog 4>;
-            key-positions = <5 16>;
+            key-positions = <6 19>;
         };
 
         GoNumDot {
             bindings = <&tog PPN>;
-            key-positions = <1 2 4>;
+            key-positions = <2 3 5>;
         };
 
         fullscree {
