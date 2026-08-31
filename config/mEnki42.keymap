@@ -63,32 +63,32 @@
 
         screenshot {
             bindings = <&kp LG(LS(S))>;
-            key-positions = <3 4>;
+            key-positions = <4 5>;
         };
 
         eng {
             bindings = <&kp F16>;
-            key-positions = <13 14>;
+            key-positions = <16 17>;
         };
 
         rus {
             bindings = <&kp F17>;
-            key-positions = <15 16>;
+            key-positions = <18 19>;
         };
 
         ParaLeft {
             bindings = <&kp LS(N9)>;
-            key-positions = <23 24>;
+            key-positions = <28 29>;
         };
 
         greatt {
             bindings = <&kp LC(LA(P))>;
-            key-positions = <25 26>;
+            key-positions = <30 31>;
         };
 
         circumflex {
             bindings = <&kp LS(N6)>;
-            key-positions = <5 6>;
+            key-positions = <6 7>;
         };
 
         bootloaderRight {
@@ -123,12 +123,12 @@
 
         fullscree {
             bindings = <&kp F11>;
-            key-positions = <6 15>;
+            key-positions = <7 18>;
         };
 
         fullscreenLeft {
             bindings = <&kp F11>;
-            key-positions = <3 14>;
+            key-positions = <4 17>;
         };
     };
 
