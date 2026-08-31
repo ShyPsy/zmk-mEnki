@@ -116,10 +116,6 @@
         bindings = <&tog 4>;
         key-positions = <5 16>;
     };
-    GoScroll {
-        bindings = <&tog 8>;
-        key-positions = <16 25>;
-    };
     GoNumDot {
         bindings = <&tog PPN>;
         key-positions = <1 2 4>;
