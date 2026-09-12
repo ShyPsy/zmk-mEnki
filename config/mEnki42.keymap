@@ -188,7 +188,7 @@
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &trans        &kp KP_SLASH   &kp N3        &kp N2        &kp N1        &kp KP_MULTIPLY    &kp TAB        &kp C_VOL_DN   &kp C_VOL_UP   &kp LA(LC(DOT)) &kp LSHFT     &trans
                 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤
-                                                             &kp BSPC      &kp N0        &kp SPACE          &kp RET        &kp SPACE      &trans
+                                                        &kp SPACE          &kp BSPC      &kp N0             &kp RET        &kp SPACE      &trans
             >;
         };
 
