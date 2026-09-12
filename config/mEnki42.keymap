@@ -216,7 +216,7 @@
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &trans        &kp KP_SLASH   &kp N3        &kp N2        &kp N1        &kp KP_MULTIPLY    &kp LS(GRAVE)  &kp LS(RBKT)   &kp LS(LBKT)   &kp LA(LC(DOT)) &kp KP_SLASH  &trans
                 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤
-                                                             &kp BSPC      &kp N0        &kp SPACE          &trans        &trans        &trans
+                                                          &kp SPACE       &kp BSPC      &kp N0              &trans        &trans        &trans
             >;
         };
     };
